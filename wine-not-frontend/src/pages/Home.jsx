@@ -73,7 +73,6 @@ export default function Home({
     if (selectedPrice)
         filteredBars = filteredBars.filter(bar => bar.price === selectedPrice);
 
-    // Search filter (live)
     if (search.trim())
         filteredBars = filteredBars.filter(bar =>
             bar.name.toLowerCase().includes(search.trim().toLowerCase())

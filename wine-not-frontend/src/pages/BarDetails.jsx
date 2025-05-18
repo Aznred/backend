@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./BarDetails.css";
 
-// FAVORITES UTILS
 function getFavs() {
     return JSON.parse(localStorage.getItem("favorites") || "[]");
 }
@@ -22,7 +21,6 @@ function toggleFav(bar) {
     setFavs(favs);
 }
 
-// Share link utils
 function getBarDetailUrl(bar) {
     return `${window.location.origin}/details/${bar.id}`;
 }

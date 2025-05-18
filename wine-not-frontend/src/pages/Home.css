@@ -50,7 +50,7 @@ body {
     color: #111;
 }
 
-/* Filtres */
+
 .filters {
     display: flex;
     align-items: center;
@@ -85,7 +85,7 @@ body {
     font-weight: bold;
 }
 
-/* Bannière promos UberEats-like */
+
 .banner-cards {
     display: flex;
     gap: 24px;
@@ -138,7 +138,7 @@ body {
     background: #333;
 }
 
-/* Section */
+
 .section {
     margin: 24px auto 28px auto;
     width: 90vw;
@@ -154,7 +154,6 @@ body {
     letter-spacing: -.5px;
 }
 
-/* Grille UberEats-like */
 .cards-list-giant {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
@@ -164,7 +163,6 @@ body {
     margin: 0 auto;
 }
 
-/* Card */
 .bar-card {
     background: #fff;
     border-radius: 21px;
@@ -243,7 +241,7 @@ body {
     background: #222;
 }
 
-/* Responsive */
+
 @media (max-width: 1150px) {
     .cards-list-giant, .banner-cards, .section, .filters {
         min-width: 98vw;

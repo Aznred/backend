@@ -4,7 +4,7 @@ const bcrypt = require("bcryptjs");
 const { OAuth2Client } = require("google-auth-library");
 
 const usersPath = path.join(__dirname, "../users.json");
-const CLIENT_ID = "341114379232-2lbs9hdca4onrhdtp4t4fmgt36aq69ji.apps.googleusercontent.com"; // ← à remplacer !
+const CLIENT_ID = "341114379232-2lbs9hdca4onrhdtp4t4fmgt36aq69ji.apps.googleusercontent.com";
 const client = new OAuth2Client(CLIENT_ID);
 
 function readUsers() {
@@ -24,7 +24,7 @@ function writeUsers(users) {
     });
 }
 
-// --------------------- SIGNUP ---------------------
+
 exports.signup = async (req, res) => {
     const { username, password } = req.body;
     if (!username || !password)
@@ -38,14 +38,13 @@ exports.signup = async (req, res) => {
         users.push({ username, password: hash, google: false });
         await writeUsers(users);
 
-        // Token bidon pour la démo
+
         res.json({ username, token: "fake-token-" + Date.now() });
     } catch (err) {
         res.status(500).json({ error: "Signup failed" });
     }
 };
 
-// --------------------- LOGIN ---------------------
 exports.login = async (req, res) => {
     const { username, password } = req.body;
     try {
@@ -65,7 +64,6 @@ exports.login = async (req, res) => {
     }
 };
 
-// --------------------- GOOGLE LOGIN ---------------------
 exports.googleLogin = async (req, res) => {
     const { credential } = req.body;
     if (!credential) return res.status(400).json({ error: "Missing credential" });

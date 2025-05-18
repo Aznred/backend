@@ -4,7 +4,6 @@ import FavoritesPage from "./pages/FavoritesPage";
 import BarDetails from "./pages/BarDetails";
 import Login from "./pages/Login";
 import Signup from "./pages/Signup";
-// Ajoute ici les imports nécessaires si tu as d'autres pages
 
 export default function App() {
     const [user, setUser] = useState(localStorage.getItem("username") || null);
@@ -13,7 +12,7 @@ export default function App() {
     const [showLogin, setShowLogin] = useState(false);
     const [showSignup, setShowSignup] = useState(false);
 
-    // Navigation
+
     const handleBarClick = (bar) => {
         setSelectedBar(bar);
         setShowFavorites(false);
@@ -27,7 +26,6 @@ export default function App() {
         setShowSignup(false);
     };
 
-    // Auth handlers
     const handleLoginClick = () => {
         setShowLogin(true);
         setShowSignup(false);
@@ -53,7 +51,6 @@ export default function App() {
         setShowSignup(false);
     };
 
-    // Favorites
     const handleFavoritesClick = () => {
         setShowFavorites(true);
         setSelectedBar(null);

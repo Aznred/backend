@@ -31,7 +31,6 @@ exports.googleBars = async (req, res) => {
             }
         } while (nextPageToken);
 
-        // Filtre pour ne garder QUE les vrais bars
         const bars = allResults
             .filter(item =>
                 item.types &&
@@ -63,7 +62,6 @@ exports.googleBars = async (req, res) => {
     }
 };
 
-// Récupère les détails Google d’un bar (reviews, etc.)
 exports.googleBarDetails = async (req, res) => {
     const id = req.params.id;
     try {
