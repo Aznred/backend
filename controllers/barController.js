@@ -1,47 +1,77 @@
-const Bar = require("../models/bar.js");
+const axios = require("axios");
 
-exports.createBar = async (req, res) => {
-    try {
-        const bar = await Bar.create(req.body);
-        res.status(201).json(bar);
-    } catch (err) {
-        res.status(400).json({ error: err.message });
-    }
-};
+const GOOGLE_API_KEY = "AIzaSyBjAsC5XT2ZRHXKmwmRwq8YUWMPKO1fRt4";
+const pragueCoords = "50.0874654,14.4212535";
+const radius = 30000;
 
-exports.getBar = async (req, res) => {
-    try {
-        const bar = await Bar.findById(req.params.id);
-        if (!bar) return res.status(404).json({ error: "Bar not found" });
-        res.json(bar);
-    } catch (err) {
-        res.status(400).json({ error: err.message });
-    }
-};
+const BAD_TYPES = [
+    "lodging", "hotel", "restaurant", "point_of_interest", "establishment"
+];
 
-exports.listBars = async (req, res) => {
+const sleep = ms => new Promise(r => setTimeout(r, ms));
+
+exports.googleBars = async (req, res) => {
+    let url = `https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=${pragueCoords}&radius=${radius}&type=bar&key=${GOOGLE_API_KEY}`;
+    let allResults = [];
+    let nextPageToken = null;
+    let page = 0;
     try {
-        const bars = await Bar.find();
+        do {
+            const { data } = await axios.get(url);
+            if (Array.isArray(data.results)) {
+                allResults = allResults.concat(data.results);
+            }
+            nextPageToken = data.next_page_token;
+            page++;
+            if (nextPageToken && page < 3) { // 3 pages max
+                await sleep(2200);
+                url = `https://maps.googleapis.com/maps/api/place/nearbysearch/json?pagetoken=${nextPageToken}&key=${GOOGLE_API_KEY}`;
+            } else {
+                nextPageToken = null;
+            }
+        } while (nextPageToken);
+
+        // Filtre pour ne garder QUE les vrais bars
+        const bars = allResults
+            .filter(item =>
+                item.types &&
+                item.types.includes("bar") &&
+                !item.types.some(t => BAD_TYPES.includes(t) && t !== "bar")
+            )
+            .map((item, i) => ({
+                id: item.place_id,
+                name: item.name,
+                address: item.vicinity || "",
+                location: "Prague",
+                rating: item.rating || 0,
+                reviewCount: item.user_ratings_total || 0,
+                image: item.photos
+                    ? `https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=${item.photos[0].photo_reference}&key=${GOOGLE_API_KEY}`
+                    : "https://images.unsplash.com/photo-1464983953574-0892a716854b",
+                tags: item.types?.filter(t =>
+                    t !== "bar" && !BAD_TYPES.includes(t)
+                ) || [],
+                alcohols: ["Beer", "Wine", "Cocktails", "Liquors"].filter(() => Math.random() > 0.4),
+                price: ["$", "$$", "$$$"][Math.floor(Math.random() * 3)],
+                description: item.name + " à Prague.",
+            }));
+
         res.json(bars);
-    } catch (err) {
-        res.status(400).json({ error: err.message });
+    } catch (e) {
+        console.error("Google Places API error:", e);
+        res.status(500).json({ error: "Google Places API error", details: e.toString() });
     }
 };
 
-exports.updateBar = async (req, res) => {
+// Récupère les détails Google d’un bar (reviews, etc.)
+exports.googleBarDetails = async (req, res) => {
+    const id = req.params.id;
     try {
-        const updated = await Bar.findByIdAndUpdate(req.params.id, req.body, { new: true });
-        res.json(updated);
-    } catch (err) {
-        res.status(400).json({ error: err.message });
-    }
-};
-
-exports.deleteBar = async (req, res) => {
-    try {
-        await Bar.findByIdAndDelete(req.params.id);
-        res.status(204).send();
-    } catch (err) {
-        res.status(400).json({ error: err.message });
+        const url = `https://maps.googleapis.com/maps/api/place/details/json?place_id=${id}&fields=name,rating,reviews,user_ratings_total,formatted_address,photos,geometry,types,website,formatted_phone_number,reviews&key=${GOOGLE_API_KEY}`;
+        const { data } = await axios.get(url);
+        if (!data.result) return res.status(404).json({ error: "Bar introuvable (Google Details)" });
+        res.json(data.result);
+    } catch (e) {
+        res.status(500).json({ error: "Google Place Details API error", details: e.toString() });
     }
 };

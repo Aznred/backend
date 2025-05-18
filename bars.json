@@ -1,0 +1,1500 @@
+[
+  {
+    "id": "1",
+    "name": "Bar 1",
+    "description": "Le Bar 1 est un spot convivial à Smíchov où tu peux découvrir les meilleurs alcools de la ville.",
+    "image": "https://i.pinimg.com/736x/5d/96/ca/5d96ca4fd76a9e96e1273339ed062108.jpg",
+    "alcohols": [
+      "Liquors"
+    ],
+    "price": "$",
+    "location": "Prague 5",
+    "rating": 4.7,
+    "reviews": [],
+    "reviewCount": 4687
+  },
+  {
+    "id": "2",
+    "name": "Bar 2",
+    "description": "Le Bar 2 est un spot convivial à Smíchov où tu peux découvrir les meilleurs alcools de la ville.",
+    "image": "https://cdn.prod.website-files.com/64cffe561f89322c529deabb/64f8f87c632168dd81a91a77_Original.jpg",
+    "alcohols": [
+      "Liquors",
+      "Beer",
+      "Wine"
+    ],
+    "price": "$",
+    "location": "Prague 4",
+    "rating": 4.2,
+    "reviews": [],
+    "reviewCount": 5354
+  },
+  {
+    "id": "3",
+    "name": "Bar 3",
+    "description": "Le Bar 3 est un spot convivial à Karlín où tu peux découvrir les meilleurs alcools de la ville.",
+    "image": "https://cdn.prod.website-files.com/64cffe561f89322c529deabb/64f8f87c632168dd81a91a77_Original.jpg",
+    "alcohols": [
+      "Beer"
+    ],
+    "price": "$$",
+    "location": "Smíchov",
+    "rating": 5,
+    "reviews": [],
+    "reviewCount": 8017
+  },
+  {
+    "id": "4",
+    "name": "Bar 4",
+    "description": "Le Bar 4 est un spot convivial à Prague 5 où tu peux découvrir les meilleurs alcools de la ville.",
+    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/5b/0c/f6/blue-light-bar.jpg?w=900&h=500&s=1",
+    "alcohols": [
+      "Wine",
+      "Beer"
+    ],
+    "price": "$",
+    "location": "Prague 1",
+    "rating": 4.4,
+    "reviews": [],
+    "reviewCount": 2633
+  },
+  {
+    "id": "5",
+    "name": "Bar 5",
+    "description": "Le Bar 5 est un spot convivial à Prague 2 où tu peux découvrir les meilleurs alcools de la ville.",
+    "image": "https://www.meatspace.cz/site/assets/files/3607/crazy_daisy_bar_prague-meatspace-_dr.jpg",
+    "alcohols": [
+      "Liquors"
+    ],
+    "price": "$$$",
+    "location": "Prague 3",
+    "rating": 4.1,
+    "reviews": [],
+    "reviewCount": 712
+  },
+  {
+    "id": "6",
+    "name": "Bar 6",
+    "description": "Le Bar 6 est un spot convivial à Karlín où tu peux découvrir les meilleurs alcools de la ville.",
+    "image": "https://i.pinimg.com/736x/5d/96/ca/5d96ca4fd76a9e96e1273339ed062108.jpg",
+    "alcohols": [
+      "Wine",
+      "Cocktails"
+    ],
+    "price": "$$",
+    "location": "Vinohrady",
+    "rating": 4.1,
+    "reviews": [],
+    "reviewCount": 2893
+  },
+  {
+    "id": "7",
+    "name": "Bar 7",
+    "description": "Le Bar 7 est un spot convivial à Prague 5 où tu peux découvrir les meilleurs alcools de la ville.",
+    "image": "https://cdn.prod.website-files.com/64cffe561f89322c529deabb/64f8f87c632168dd81a91a77_Original.jpg",
+    "alcohols": [
+      "Wine"
+    ],
+    "price": "$",
+    "location": "Letná",
+    "rating": 4.7,
+    "reviews": [],
+    "reviewCount": 4302
+  },
+  {
+    "id": "8",
+    "name": "Bar 8",
+    "description": "Le Bar 8 est un spot convivial à Prague 3 où tu peux découvrir les meilleurs alcools de la ville.",
+    "image": "https://images.squarespace-cdn.com/content/v1/608e530428da272d8862478a/1619947474672-8G9SZU1OGVZIG6D6QZI9/london-underground-bar-bg.jpg",
+    "alcohols": [
+      "Wine",
+      "Cocktails",
+      "Beer"
+    ],
+    "price": "$$",
+    "location": "Prague 4",
+    "rating": 4,
+    "reviews": [],
+    "reviewCount": 7534
+  },
+  {
+    "id": "9",
+    "name": "Bar 9",
+    "description": "Le Bar 9 est un spot convivial à Prague 3 où tu peux découvrir les meilleurs alcools de la ville.",
+    "image": "https://images.svoboda-williams.com/frontend/99554657/800x533-z/le-valmont-prague-s-best-bars.jpg",
+    "alcohols": [
+      "Wine",
+      "Cocktails"
+    ],
+    "price": "$",
+    "location": "Prague 2",
+    "rating": 5,
+    "reviews": [],
+    "reviewCount": 3048
+  },
+  {
+    "id": "10",
+    "name": "Bar 10",
+    "description": "Le Bar 10 est un spot convivial à Smíchov où tu peux découvrir les meilleurs alcools de la ville.",
+    "image": "https://images.svoboda-williams.com/frontend/99554657/800x533-z/le-valmont-prague-s-best-bars.jpg",
+    "alcohols": [
+      "Beer",
+      "Liquors"
+    ],
+    "price": "$$$",
+    "location": "Smíchov",
+    "rating": 4.6,
+    "reviews": [],
+    "reviewCount": 3481
+  },
+  {
+    "id": "11",
+    "name": "Bar 11",
+    "description": "Le Bar 11 est un spot convivial à Vinohrady où tu peux découvrir les meilleurs alcools de la ville.",
+    "image": "https://www.pragueweekendstours.com/obj/files/6/sys_media_4262.jpg",
+    "alcohols": [
+      "Wine",
+      "Cocktails"
+    ],
+    "price": "$$$",
+    "location": "Letná",
+    "rating": 4.2,
+    "reviews": [],
+    "reviewCount": 4822
+  },
+  {
+    "id": "12",
+    "name": "Bar 12",
+    "description": "Le Bar 12 est un spot convivial à Prague 4 où tu peux découvrir les meilleurs alcools de la ville.",
+    "image": "https://www.meatspace.cz/site/assets/files/3607/crazy_daisy_bar_prague-meatspace-_dr.jpg",
+    "alcohols": [
+      "Cocktails",
+      "Liquors",
+      "Wine"
+    ],
+    "price": "$",
+    "location": "Prague 5",
+    "rating": 4.9,
+    "reviews": [],
+    "reviewCount": 6154
+  },
+  {
+    "id": "13",
+    "name": "Bar 13",
+    "description": "Le Bar 13 est un spot convivial à Karlín où tu peux découvrir les meilleurs alcools de la ville.",
+    "image": "https://cdn.prod.website-files.com/64cffe561f89322c529deabb/64f8f87c632168dd81a91a77_Original.jpg",
+    "alcohols": [
+      "Wine",
+      "Beer"
+    ],
+    "price": "$",
+    "location": "Vinohrady",
+    "rating": 4.1,
+    "reviews": [],
+    "reviewCount": 1633
+  },
+  {
+    "id": "14",
+    "name": "Bar 14",
+    "description": "Le Bar 14 est un spot convivial à Prague 2 où tu peux découvrir les meilleurs alcools de la ville.",
+    "image": "https://www.meatspace.cz/site/assets/files/3607/crazy_daisy_bar_prague-meatspace-_dr.jpg",
+    "alcohols": [
+      "Wine",
+      "Beer",
+      "Cocktails"
+    ],
+    "price": "$$",
+    "location": "Prague 3",
+    "rating": 4.8,
+    "reviews": [],
+    "reviewCount": 4583
+  },
+  {
+    "id": "15",
+    "name": "Bar 15",
+    "description": "Le Bar 15 est un spot convivial à Prague 2 où tu peux découvrir les meilleurs alcools de la ville.",
+    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/c4/3f/89/nightmare-horror-bar.jpg?w=500&h=500&s=1",
+    "alcohols": [
+      "Liquors",
+      "Wine",
+      "Beer"
+    ],
+    "price": "$$",
+    "location": "Prague 3",
+    "rating": 4.7,
+    "reviews": [],
+    "reviewCount": 499
+  },
+  {
+    "id": "16",
+    "name": "Bar 16",
+    "description": "Le Bar 16 est un spot convivial à Karlín où tu peux découvrir les meilleurs alcools de la ville.",
+    "image": "https://images.svoboda-williams.com/frontend/99554657/800x533-z/le-valmont-prague-s-best-bars.jpg",
+    "alcohols": [
+      "Wine",
+      "Liquors"
+    ],
+    "price": "$",
+    "location": "Prague 3",
+    "rating": 4.6,
+    "reviews": [],
+    "reviewCount": 7191
+  },
+  {
+    "id": "17",
+    "name": "Bar 17",
+    "description": "Le Bar 17 est un spot convivial à Karlín où tu peux découvrir les meilleurs alcools de la ville.",
+    "image": "https://cdn.prod.website-files.com/64cffe561f89322c529deabb/64f8f87c632168dd81a91a77_Original.jpg",
+    "alcohols": [
+      "Wine",
+      "Liquors",
+      "Cocktails"
+    ],
+    "price": "$$$",
+    "location": "Smíchov",
+    "rating": 4.4,
+    "reviews": [],
+    "reviewCount": 7237
+  },
+  {
+    "id": "18",
+    "name": "Bar 18",
+    "description": "Le Bar 18 est un spot convivial à Prague 2 où tu peux découvrir les meilleurs alcools de la ville.",
+    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/c4/3f/89/nightmare-horror-bar.jpg?w=500&h=500&s=1",
+    "alcohols": [
+      "Liquors"
+    ],
+    "price": "$$$",
+    "location": "Žižkov",
+    "rating": 4.2,
+    "reviews": [],
+    "reviewCount": 6655
+  },
+  {
+    "id": "19",
+    "name": "Bar 19",
+    "description": "Le Bar 19 est un spot convivial à Karlín où tu peux découvrir les meilleurs alcools de la ville.",
+    "image": "https://www.meatspace.cz/site/assets/files/3607/crazy_daisy_bar_prague-meatspace-_dr.jpg",
+    "alcohols": [
+      "Liquors"
+    ],
+    "price": "$",
+    "location": "Prague 4",
+    "rating": 4.1,
+    "reviews": [],
+    "reviewCount": 6867
+  },
+  {
+    "id": "20",
+    "name": "Bar 20",
+    "description": "Le Bar 20 est un spot convivial à Prague 3 où tu peux découvrir les meilleurs alcools de la ville.",
+    "image": "https://images.svoboda-williams.com/frontend/99554657/800x533-z/le-valmont-prague-s-best-bars.jpg",
+    "alcohols": [
+      "Wine",
+      "Cocktails",
+      "Liquors"
+    ],
+    "price": "$$$",
+    "location": "Žižkov",
+    "rating": 4.3,
+    "reviews": [],
+    "reviewCount": 6418
+  },
+  {
+    "id": "21",
+    "name": "Bar 21",
+    "description": "Le Bar 21 est un spot convivial à Žižkov où tu peux découvrir les meilleurs alcools de la ville.",
+    "image": "https://images.svoboda-williams.com/frontend/99554657/800x533-z/le-valmont-prague-s-best-bars.jpg",
+    "alcohols": [
+      "Cocktails",
+      "Wine",
+      "Beer"
+    ],
+    "price": "$",
+    "location": "Letná",
+    "rating": 4.4,
+    "reviews": [],
+    "reviewCount": 2734
+  },
+  {
+    "id": "22",
+    "name": "Bar 22",
+    "description": "Le Bar 22 est un spot convivial à Prague 2 où tu peux découvrir les meilleurs alcools de la ville.",
+    "image": "https://www.meatspace.cz/site/assets/files/3607/crazy_daisy_bar_prague-meatspace-_dr.jpg",
+    "alcohols": [
+      "Liquors"
+    ],
+    "price": "$$",
+    "location": "Prague 4",
+    "rating": 4.5,
+    "reviews": [],
+    "reviewCount": 4481
+  },
+  {
+    "id": "23",
+    "name": "Bar 23",
+    "description": "Le Bar 23 est un spot convivial à Letná où tu peux découvrir les meilleurs alcools de la ville.",
+    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/c4/3f/89/nightmare-horror-bar.jpg?w=500&h=500&s=1",
+    "alcohols": [
+      "Liquors"
+    ],
+    "price": "$",
+    "location": "Prague 3",
+    "rating": 4.6,
+    "reviews": [],
+    "reviewCount": 1955
+  },
+  {
+    "id": "24",
+    "name": "Bar 24",
+    "description": "Le Bar 24 est un spot convivial à Prague 3 où tu peux découvrir les meilleurs alcools de la ville.",
+    "image": "https://www.meatspace.cz/site/assets/files/3607/crazy_daisy_bar_prague-meatspace-_dr.jpg",
+    "alcohols": [
+      "Wine",
+      "Cocktails",
+      "Beer"
+    ],
+    "price": "$$",
+    "location": "Prague 1",
+    "rating": 4.3,
+    "reviews": [],
+    "reviewCount": 2867
+  },
+  {
+    "id": "25",
+    "name": "Bar 25",
+    "description": "Le Bar 25 est un spot convivial à Vinohrady où tu peux découvrir les meilleurs alcools de la ville.",
+    "image": "https://i.pinimg.com/736x/5d/96/ca/5d96ca4fd76a9e96e1273339ed062108.jpg",
+    "alcohols": [
+      "Wine"
+    ],
+    "price": "$$$",
+    "location": "Prague 3",
+    "rating": 4.3,
+    "reviews": [],
+    "reviewCount": 1434
+  },
+  {
+    "id": "26",
+    "name": "Bar 26",
+    "description": "Le Bar 26 est un spot convivial à Prague 1 où tu peux découvrir les meilleurs alcools de la ville.",
+    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/c4/3f/89/nightmare-horror-bar.jpg?w=500&h=500&s=1",
+    "alcohols": [
+      "Beer"
+    ],
+    "price": "$",
+    "location": "Prague 3",
+    "rating": 4.7,
+    "reviews": [],
+    "reviewCount": 3482
+  },
+  {
+    "id": "27",
+    "name": "Bar 27",
+    "description": "Le Bar 27 est un spot convivial à Prague 4 où tu peux découvrir les meilleurs alcools de la ville.",
+    "image": "https://images.squarespace-cdn.com/content/v1/608e530428da272d8862478a/1619947474672-8G9SZU1OGVZIG6D6QZI9/london-underground-bar-bg.jpg",
+    "alcohols": [
+      "Beer"
+    ],
+    "price": "$",
+    "location": "Žižkov",
+    "rating": 5,
+    "reviews": [],
+    "reviewCount": 1626
+  },
+  {
+    "id": "28",
+    "name": "Bar 28",
+    "description": "Le Bar 28 est un spot convivial à Smíchov où tu peux découvrir les meilleurs alcools de la ville.",
+    "image": "https://cdn.prod.website-files.com/64cffe561f89322c529deabb/64f8f87c632168dd81a91a77_Original.jpg",
+    "alcohols": [
+      "Beer"
+    ],
+    "price": "$$",
+    "location": "Prague 5",
+    "rating": 4.7,
+    "reviews": [],
+    "reviewCount": 5614
+  },
+  {
+    "id": "29",
+    "name": "Bar 29",
+    "description": "Le Bar 29 est un spot convivial à Prague 4 où tu peux découvrir les meilleurs alcools de la ville.",
+    "image": "https://i.pinimg.com/736x/5d/96/ca/5d96ca4fd76a9e96e1273339ed062108.jpg",
+    "alcohols": [
+      "Wine",
+      "Beer"
+    ],
+    "price": "$$$",
+    "location": "Vinohrady",
+    "rating": 4.7,
+    "reviews": [],
+    "reviewCount": 2978
+  },
+  {
+    "id": "30",
+    "name": "Bar 30",
+    "description": "Le Bar 30 est un spot convivial à Vinohrady où tu peux découvrir les meilleurs alcools de la ville.",
+    "image": "https://www.pragueweekendstours.com/obj/files/6/sys_media_4262.jpg",
+    "alcohols": [
+      "Wine"
+    ],
+    "price": "$",
+    "location": "Vinohrady",
+    "rating": 4.3,
+    "reviews": [],
+    "reviewCount": 3541
+  },
+  {
+    "id": "31",
+    "name": "Bar 31",
+    "description": "Le Bar 31 est un spot convivial à Prague 5 où tu peux découvrir les meilleurs alcools de la ville.",
+    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/5b/0c/f6/blue-light-bar.jpg?w=900&h=500&s=1",
+    "alcohols": [
+      "Liquors"
+    ],
+    "price": "$",
+    "location": "Prague 1",
+    "rating": 4.7,
+    "reviews": [],
+    "reviewCount": 509
+  },
+  {
+    "id": "32",
+    "name": "Bar 32",
+    "description": "Le Bar 32 est un spot convivial à Prague 4 où tu peux découvrir les meilleurs alcools de la ville.",
+    "image": "https://images.squarespace-cdn.com/content/v1/608e530428da272d8862478a/1619947474672-8G9SZU1OGVZIG6D6QZI9/london-underground-bar-bg.jpg",
+    "alcohols": [
+      "Liquors",
+      "Beer",
+      "Cocktails"
+    ],
+    "price": "$$",
+    "location": "Vinohrady",
+    "rating": 4.3,
+    "reviews": [],
+    "reviewCount": 5647
+  },
+  {
+    "id": "33",
+    "name": "Bar 33",
+    "description": "Le Bar 33 est un spot convivial à Vinohrady où tu peux découvrir les meilleurs alcools de la ville.",
+    "image": "https://images.svoboda-williams.com/frontend/99554657/800x533-z/le-valmont-prague-s-best-bars.jpg",
+    "alcohols": [
+      "Wine",
+      "Cocktails",
+      "Liquors"
+    ],
+    "price": "$$",
+    "location": "Karlín",
+    "rating": 5,
+    "reviews": [],
+    "reviewCount": 3815
+  },
+  {
+    "id": "34",
+    "name": "Bar 34",
+    "description": "Le Bar 34 est un spot convivial à Žižkov où tu peux découvrir les meilleurs alcools de la ville.",
+    "image": "https://www.pragueweekendstours.com/obj/files/6/sys_media_4262.jpg",
+    "alcohols": [
+      "Beer"
+    ],
+    "price": "$$$",
+    "location": "Prague 2",
+    "rating": 4.7,
+    "reviews": [],
+    "reviewCount": 5043
+  },
+  {
+    "id": "35",
+    "name": "Bar 35",
+    "description": "Le Bar 35 est un spot convivial à Smíchov où tu peux découvrir les meilleurs alcools de la ville.",
+    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/5b/0c/f6/blue-light-bar.jpg?w=900&h=500&s=1",
+    "alcohols": [
+      "Cocktails",
+      "Liquors"
+    ],
+    "price": "$$$",
+    "location": "Karlín",
+    "rating": 5,
+    "reviews": [],
+    "reviewCount": 4463
+  },
+  {
+    "id": "36",
+    "name": "Bar 36",
+    "description": "Le Bar 36 est un spot convivial à Prague 2 où tu peux découvrir les meilleurs alcools de la ville.",
+    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/c4/3f/89/nightmare-horror-bar.jpg?w=500&h=500&s=1",
+    "alcohols": [
+      "Wine",
+      "Beer"
+    ],
+    "price": "$",
+    "location": "Žižkov",
+    "rating": 4.6,
+    "reviews": [],
+    "reviewCount": 3141
+  },
+  {
+    "id": "37",
+    "name": "Bar 37",
+    "description": "Le Bar 37 est un spot convivial à Prague 3 où tu peux découvrir les meilleurs alcools de la ville.",
+    "image": "https://cdn.prod.website-files.com/64cffe561f89322c529deabb/64f8f87c632168dd81a91a77_Original.jpg",
+    "alcohols": [
+      "Beer",
+      "Wine"
+    ],
+    "price": "$$",
+    "location": "Prague 4",
+    "rating": 4.2,
+    "reviews": [],
+    "reviewCount": 989
+  },
+  {
+    "id": "38",
+    "name": "Bar 38",
+    "description": "Le Bar 38 est un spot convivial à Smíchov où tu peux découvrir les meilleurs alcools de la ville.",
+    "image": "https://cdn.prod.website-files.com/64cffe561f89322c529deabb/64f8f87c632168dd81a91a77_Original.jpg",
+    "alcohols": [
+      "Liquors"
+    ],
+    "price": "$",
+    "location": "Prague 3",
+    "rating": 5,
+    "reviews": [],
+    "reviewCount": 2687
+  },
+  {
+    "id": "39",
+    "name": "Bar 39",
+    "description": "Le Bar 39 est un spot convivial à Prague 3 où tu peux découvrir les meilleurs alcools de la ville.",
+    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/c4/3f/89/nightmare-horror-bar.jpg?w=500&h=500&s=1",
+    "alcohols": [
+      "Liquors",
+      "Cocktails"
+    ],
+    "price": "$$",
+    "location": "Prague 3",
+    "rating": 4.5,
+    "reviews": [],
+    "reviewCount": 4278
+  },
+  {
+    "id": "40",
+    "name": "Bar 40",
+    "description": "Le Bar 40 est un spot convivial à Smíchov où tu peux découvrir les meilleurs alcools de la ville.",
+    "image": "https://images.squarespace-cdn.com/content/v1/608e530428da272d8862478a/1619947474672-8G9SZU1OGVZIG6D6QZI9/london-underground-bar-bg.jpg",
+    "alcohols": [
+      "Liquors",
+      "Cocktails"
+    ],
+    "price": "$$$",
+    "location": "Smíchov",
+    "rating": 4.2,
+    "reviews": [],
+    "reviewCount": 1926
+  },
+  {
+    "id": "41",
+    "name": "Bar 41",
+    "description": "Le Bar 41 est un spot convivial à Prague 5 où tu peux découvrir les meilleurs alcools de la ville.",
+    "image": "https://www.pragueweekendstours.com/obj/files/6/sys_media_4262.jpg",
+    "alcohols": [
+      "Beer",
+      "Wine",
+      "Liquors"
+    ],
+    "price": "$",
+    "location": "Prague 3",
+    "rating": 4.2,
+    "reviews": [],
+    "reviewCount": 2885
+  },
+  {
+    "id": "42",
+    "name": "Bar 42",
+    "description": "Le Bar 42 est un spot convivial à Prague 3 où tu peux découvrir les meilleurs alcools de la ville.",
+    "image": "https://cdn.prod.website-files.com/64cffe561f89322c529deabb/64f8f87c632168dd81a91a77_Original.jpg",
+    "alcohols": [
+      "Wine"
+    ],
+    "price": "$$",
+    "location": "Prague 2",
+    "rating": 4.1,
+    "reviews": [],
+    "reviewCount": 2604
+  },
+  {
+    "id": "43",
+    "name": "Bar 43",
+    "description": "Le Bar 43 est un spot convivial à Prague 4 où tu peux découvrir les meilleurs alcools de la ville.",
+    "image": "https://images.svoboda-williams.com/frontend/99554657/800x533-z/le-valmont-prague-s-best-bars.jpg",
+    "alcohols": [
+      "Wine"
+    ],
+    "price": "$$",
+    "location": "Prague 1",
+    "rating": 4.1,
+    "reviews": [],
+    "reviewCount": 6016
+  },
+  {
+    "id": "44",
+    "name": "Bar 44",
+    "description": "Le Bar 44 est un spot convivial à Prague 3 où tu peux découvrir les meilleurs alcools de la ville.",
+    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/c4/3f/89/nightmare-horror-bar.jpg?w=500&h=500&s=1",
+    "alcohols": [
+      "Wine",
+      "Liquors",
+      "Cocktails"
+    ],
+    "price": "$",
+    "location": "Karlín",
+    "rating": 4.9,
+    "reviews": [],
+    "reviewCount": 1367
+  },
+  {
+    "id": "45",
+    "name": "Bar 45",
+    "description": "Le Bar 45 est un spot convivial à Karlín où tu peux découvrir les meilleurs alcools de la ville.",
+    "image": "https://images.squarespace-cdn.com/content/v1/608e530428da272d8862478a/1619947474672-8G9SZU1OGVZIG6D6QZI9/london-underground-bar-bg.jpg",
+    "alcohols": [
+      "Wine"
+    ],
+    "price": "$$",
+    "location": "Vinohrady",
+    "rating": 4.7,
+    "reviews": [],
+    "reviewCount": 3008
+  },
+  {
+    "id": "46",
+    "name": "Bar 46",
+    "description": "Le Bar 46 est un spot convivial à Karlín où tu peux découvrir les meilleurs alcools de la ville.",
+    "image": "https://images.squarespace-cdn.com/content/v1/608e530428da272d8862478a/1619947474672-8G9SZU1OGVZIG6D6QZI9/london-underground-bar-bg.jpg",
+    "alcohols": [
+      "Wine"
+    ],
+    "price": "$",
+    "location": "Vinohrady",
+    "rating": 4.8,
+    "reviews": [],
+    "reviewCount": 7759
+  },
+  {
+    "id": "47",
+    "name": "Bar 47",
+    "description": "Le Bar 47 est un spot convivial à Smíchov où tu peux découvrir les meilleurs alcools de la ville.",
+    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/5b/0c/f6/blue-light-bar.jpg?w=900&h=500&s=1",
+    "alcohols": [
+      "Liquors"
+    ],
+    "price": "$$$",
+    "location": "Karlín",
+    "rating": 4.2,
+    "reviews": [],
+    "reviewCount": 3683
+  },
+  {
+    "id": "48",
+    "name": "Bar 48",
+    "description": "Le Bar 48 est un spot convivial à Prague 1 où tu peux découvrir les meilleurs alcools de la ville.",
+    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/5b/0c/f6/blue-light-bar.jpg?w=900&h=500&s=1",
+    "alcohols": [
+      "Liquors",
+      "Cocktails",
+      "Wine"
+    ],
+    "price": "$$$",
+    "location": "Letná",
+    "rating": 4.8,
+    "reviews": [],
+    "reviewCount": 2612
+  },
+  {
+    "id": "49",
+    "name": "Bar 49",
+    "description": "Le Bar 49 est un spot convivial à Žižkov où tu peux découvrir les meilleurs alcools de la ville.",
+    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/c4/3f/89/nightmare-horror-bar.jpg?w=500&h=500&s=1",
+    "alcohols": [
+      "Cocktails",
+      "Liquors",
+      "Beer"
+    ],
+    "price": "$$$",
+    "location": "Smíchov",
+    "rating": 4.4,
+    "reviews": [],
+    "reviewCount": 7948
+  },
+  {
+    "id": "50",
+    "name": "Bar 50",
+    "description": "Le Bar 50 est un spot convivial à Letná où tu peux découvrir les meilleurs alcools de la ville.",
+    "image": "https://i.pinimg.com/736x/5d/96/ca/5d96ca4fd76a9e96e1273339ed062108.jpg",
+    "alcohols": [
+      "Beer"
+    ],
+    "price": "$",
+    "location": "Vinohrady",
+    "rating": 4.9,
+    "reviews": [],
+    "reviewCount": 1825
+  },
+  {
+    "id": "51",
+    "name": "Bar 51",
+    "description": "Le Bar 51 est un spot convivial à Prague 3 où tu peux découvrir les meilleurs alcools de la ville.",
+    "image": "https://www.pragueweekendstours.com/obj/files/6/sys_media_4262.jpg",
+    "alcohols": [
+      "Beer",
+      "Liquors"
+    ],
+    "price": "$$$",
+    "location": "Prague 3",
+    "rating": 4.2,
+    "reviews": [],
+    "reviewCount": 3532
+  },
+  {
+    "id": "52",
+    "name": "Bar 52",
+    "description": "Le Bar 52 est un spot convivial à Prague 3 où tu peux découvrir les meilleurs alcools de la ville.",
+    "image": "https://cdn.prod.website-files.com/64cffe561f89322c529deabb/64f8f87c632168dd81a91a77_Original.jpg",
+    "alcohols": [
+      "Beer",
+      "Liquors"
+    ],
+    "price": "$",
+    "location": "Prague 3",
+    "rating": 4,
+    "reviews": [],
+    "reviewCount": 6300
+  },
+  {
+    "id": "53",
+    "name": "Bar 53",
+    "description": "Le Bar 53 est un spot convivial à Prague 2 où tu peux découvrir les meilleurs alcools de la ville.",
+    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/c4/3f/89/nightmare-horror-bar.jpg?w=500&h=500&s=1",
+    "alcohols": [
+      "Beer",
+      "Cocktails",
+      "Liquors"
+    ],
+    "price": "$$",
+    "location": "Prague 4",
+    "rating": 4.1,
+    "reviews": [],
+    "reviewCount": 4832
+  },
+  {
+    "id": "54",
+    "name": "Bar 54",
+    "description": "Le Bar 54 est un spot convivial à Vinohrady où tu peux découvrir les meilleurs alcools de la ville.",
+    "image": "https://images.svoboda-williams.com/frontend/99554657/800x533-z/le-valmont-prague-s-best-bars.jpg",
+    "alcohols": [
+      "Liquors"
+    ],
+    "price": "$",
+    "location": "Prague 3",
+    "rating": 4.4,
+    "reviews": [],
+    "reviewCount": 5707
+  },
+  {
+    "id": "55",
+    "name": "Bar 55",
+    "description": "Le Bar 55 est un spot convivial à Žižkov où tu peux découvrir les meilleurs alcools de la ville.",
+    "image": "https://cdn.prod.website-files.com/64cffe561f89322c529deabb/64f8f87c632168dd81a91a77_Original.jpg",
+    "alcohols": [
+      "Cocktails",
+      "Beer",
+      "Liquors"
+    ],
+    "price": "$$$",
+    "location": "Prague 3",
+    "rating": 4.3,
+    "reviews": [],
+    "reviewCount": 7731
+  },
+  {
+    "id": "56",
+    "name": "Bar 56",
+    "description": "Le Bar 56 est un spot convivial à Prague 1 où tu peux découvrir les meilleurs alcools de la ville.",
+    "image": "https://images.squarespace-cdn.com/content/v1/608e530428da272d8862478a/1619947474672-8G9SZU1OGVZIG6D6QZI9/london-underground-bar-bg.jpg",
+    "alcohols": [
+      "Liquors"
+    ],
+    "price": "$",
+    "location": "Letná",
+    "rating": 4.2,
+    "reviews": [],
+    "reviewCount": 7488
+  },
+  {
+    "id": "57",
+    "name": "Bar 57",
+    "description": "Le Bar 57 est un spot convivial à Prague 5 où tu peux découvrir les meilleurs alcools de la ville.",
+    "image": "https://i.pinimg.com/736x/5d/96/ca/5d96ca4fd76a9e96e1273339ed062108.jpg",
+    "alcohols": [
+      "Liquors"
+    ],
+    "price": "$$$",
+    "location": "Prague 3",
+    "rating": 4.3,
+    "reviews": [],
+    "reviewCount": 256
+  },
+  {
+    "id": "58",
+    "name": "Bar 58",
+    "description": "Le Bar 58 est un spot convivial à Prague 4 où tu peux découvrir les meilleurs alcools de la ville.",
+    "image": "https://www.meatspace.cz/site/assets/files/3607/crazy_daisy_bar_prague-meatspace-_dr.jpg",
+    "alcohols": [
+      "Wine",
+      "Beer",
+      "Liquors"
+    ],
+    "price": "$",
+    "location": "Prague 3",
+    "rating": 4.7,
+    "reviews": [],
+    "reviewCount": 2943
+  },
+  {
+    "id": "59",
+    "name": "Bar 59",
+    "description": "Le Bar 59 est un spot convivial à Prague 3 où tu peux découvrir les meilleurs alcools de la ville.",
+    "image": "https://i.pinimg.com/736x/5d/96/ca/5d96ca4fd76a9e96e1273339ed062108.jpg",
+    "alcohols": [
+      "Cocktails"
+    ],
+    "price": "$$",
+    "location": "Smíchov",
+    "rating": 4.8,
+    "reviews": [],
+    "reviewCount": 3129
+  },
+  {
+    "id": "60",
+    "name": "Bar 60",
+    "description": "Le Bar 60 est un spot convivial à Prague 4 où tu peux découvrir les meilleurs alcools de la ville.",
+    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/c4/3f/89/nightmare-horror-bar.jpg?w=500&h=500&s=1",
+    "alcohols": [
+      "Cocktails",
+      "Beer"
+    ],
+    "price": "$$",
+    "location": "Vinohrady",
+    "rating": 4.2,
+    "reviews": [],
+    "reviewCount": 7124
+  },
+  {
+    "id": "61",
+    "name": "Bar 61",
+    "description": "Le Bar 61 est un spot convivial à Karlín où tu peux découvrir les meilleurs alcools de la ville.",
+    "image": "https://images.squarespace-cdn.com/content/v1/608e530428da272d8862478a/1619947474672-8G9SZU1OGVZIG6D6QZI9/london-underground-bar-bg.jpg",
+    "alcohols": [
+      "Beer",
+      "Wine",
+      "Liquors"
+    ],
+    "price": "$",
+    "location": "Žižkov",
+    "rating": 4.9,
+    "reviews": [],
+    "reviewCount": 3151
+  },
+  {
+    "id": "62",
+    "name": "Bar 62",
+    "description": "Le Bar 62 est un spot convivial à Karlín où tu peux découvrir les meilleurs alcools de la ville.",
+    "image": "https://www.meatspace.cz/site/assets/files/3607/crazy_daisy_bar_prague-meatspace-_dr.jpg",
+    "alcohols": [
+      "Cocktails",
+      "Beer"
+    ],
+    "price": "$$",
+    "location": "Prague 4",
+    "rating": 4.6,
+    "reviews": [],
+    "reviewCount": 6529
+  },
+  {
+    "id": "63",
+    "name": "Bar 63",
+    "description": "Le Bar 63 est un spot convivial à Vinohrady où tu peux découvrir les meilleurs alcools de la ville.",
+    "image": "https://images.svoboda-williams.com/frontend/99554657/800x533-z/le-valmont-prague-s-best-bars.jpg",
+    "alcohols": [
+      "Cocktails",
+      "Beer",
+      "Wine"
+    ],
+    "price": "$$$",
+    "location": "Prague 3",
+    "rating": 4.2,
+    "reviews": [],
+    "reviewCount": 985
+  },
+  {
+    "id": "64",
+    "name": "Bar 64",
+    "description": "Le Bar 64 est un spot convivial à Karlín où tu peux découvrir les meilleurs alcools de la ville.",
+    "image": "https://www.meatspace.cz/site/assets/files/3607/crazy_daisy_bar_prague-meatspace-_dr.jpg",
+    "alcohols": [
+      "Liquors",
+      "Cocktails",
+      "Beer"
+    ],
+    "price": "$",
+    "location": "Prague 2",
+    "rating": 4.6,
+    "reviews": [],
+    "reviewCount": 2386
+  },
+  {
+    "id": "65",
+    "name": "Bar 65",
+    "description": "Le Bar 65 est un spot convivial à Prague 3 où tu peux découvrir les meilleurs alcools de la ville.",
+    "image": "https://i.pinimg.com/736x/5d/96/ca/5d96ca4fd76a9e96e1273339ed062108.jpg",
+    "alcohols": [
+      "Liquors"
+    ],
+    "price": "$$",
+    "location": "Žižkov",
+    "rating": 4.3,
+    "reviews": [],
+    "reviewCount": 3162
+  },
+  {
+    "id": "66",
+    "name": "Bar 66",
+    "description": "Le Bar 66 est un spot convivial à Smíchov où tu peux découvrir les meilleurs alcools de la ville.",
+    "image": "https://www.pragueweekendstours.com/obj/files/6/sys_media_4262.jpg",
+    "alcohols": [
+      "Liquors"
+    ],
+    "price": "$",
+    "location": "Prague 5",
+    "rating": 4.1,
+    "reviews": [],
+    "reviewCount": 7371
+  },
+  {
+    "id": "67",
+    "name": "Bar 67",
+    "description": "Le Bar 67 est un spot convivial à Karlín où tu peux découvrir les meilleurs alcools de la ville.",
+    "image": "https://cdn.prod.website-files.com/64cffe561f89322c529deabb/64f8f87c632168dd81a91a77_Original.jpg",
+    "alcohols": [
+      "Cocktails"
+    ],
+    "price": "$$$",
+    "location": "Vinohrady",
+    "rating": 4.4,
+    "reviews": [],
+    "reviewCount": 6967
+  },
+  {
+    "id": "68",
+    "name": "Bar 68",
+    "description": "Le Bar 68 est un spot convivial à Prague 4 où tu peux découvrir les meilleurs alcools de la ville.",
+    "image": "https://cdn.prod.website-files.com/64cffe561f89322c529deabb/64f8f87c632168dd81a91a77_Original.jpg",
+    "alcohols": [
+      "Cocktails",
+      "Liquors"
+    ],
+    "price": "$",
+    "location": "Letná",
+    "rating": 4.9,
+    "reviews": [],
+    "reviewCount": 1470
+  },
+  {
+    "id": "69",
+    "name": "Bar 69",
+    "description": "Le Bar 69 est un spot convivial à Vinohrady où tu peux découvrir les meilleurs alcools de la ville.",
+    "image": "https://cdn.prod.website-files.com/64cffe561f89322c529deabb/64f8f87c632168dd81a91a77_Original.jpg",
+    "alcohols": [
+      "Liquors"
+    ],
+    "price": "$$",
+    "location": "Prague 5",
+    "rating": 4.6,
+    "reviews": [],
+    "reviewCount": 7891
+  },
+  {
+    "id": "70",
+    "name": "Bar 70",
+    "description": "Le Bar 70 est un spot convivial à Smíchov où tu peux découvrir les meilleurs alcools de la ville.",
+    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/c4/3f/89/nightmare-horror-bar.jpg?w=500&h=500&s=1",
+    "alcohols": [
+      "Wine",
+      "Liquors",
+      "Cocktails"
+    ],
+    "price": "$$",
+    "location": "Prague 4",
+    "rating": 4.3,
+    "reviews": [],
+    "reviewCount": 6834
+  },
+  {
+    "id": "71",
+    "name": "Bar 71",
+    "description": "Le Bar 71 est un spot convivial à Vinohrady où tu peux découvrir les meilleurs alcools de la ville.",
+    "image": "https://images.svoboda-williams.com/frontend/99554657/800x533-z/le-valmont-prague-s-best-bars.jpg",
+    "alcohols": [
+      "Wine"
+    ],
+    "price": "$$$",
+    "location": "Letná",
+    "rating": 4.7,
+    "reviews": [],
+    "reviewCount": 6384
+  },
+  {
+    "id": "72",
+    "name": "Bar 72",
+    "description": "Le Bar 72 est un spot convivial à Prague 3 où tu peux découvrir les meilleurs alcools de la ville.",
+    "image": "https://www.meatspace.cz/site/assets/files/3607/crazy_daisy_bar_prague-meatspace-_dr.jpg",
+    "alcohols": [
+      "Wine"
+    ],
+    "price": "$$$",
+    "location": "Smíchov",
+    "rating": 4,
+    "reviews": [],
+    "reviewCount": 4451
+  },
+  {
+    "id": "73",
+    "name": "Bar 73",
+    "description": "Le Bar 73 est un spot convivial à Prague 3 où tu peux découvrir les meilleurs alcools de la ville.",
+    "image": "https://images.squarespace-cdn.com/content/v1/608e530428da272d8862478a/1619947474672-8G9SZU1OGVZIG6D6QZI9/london-underground-bar-bg.jpg",
+    "alcohols": [
+      "Wine",
+      "Liquors",
+      "Cocktails"
+    ],
+    "price": "$$$",
+    "location": "Prague 2",
+    "rating": 4.5,
+    "reviews": [],
+    "reviewCount": 7662
+  },
+  {
+    "id": "74",
+    "name": "Bar 74",
+    "description": "Le Bar 74 est un spot convivial à Žižkov où tu peux découvrir les meilleurs alcools de la ville.",
+    "image": "https://cdn.prod.website-files.com/64cffe561f89322c529deabb/64f8f87c632168dd81a91a77_Original.jpg",
+    "alcohols": [
+      "Wine",
+      "Beer",
+      "Cocktails"
+    ],
+    "price": "$$$",
+    "location": "Vinohrady",
+    "rating": 4,
+    "reviews": [],
+    "reviewCount": 5802
+  },
+  {
+    "id": "75",
+    "name": "Bar 75",
+    "description": "Le Bar 75 est un spot convivial à Prague 1 où tu peux découvrir les meilleurs alcools de la ville.",
+    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/5b/0c/f6/blue-light-bar.jpg?w=900&h=500&s=1",
+    "alcohols": [
+      "Wine",
+      "Beer"
+    ],
+    "price": "$$",
+    "location": "Žižkov",
+    "rating": 4.4,
+    "reviews": [],
+    "reviewCount": 270
+  },
+  {
+    "id": "76",
+    "name": "Bar 76",
+    "description": "Le Bar 76 est un spot convivial à Vinohrady où tu peux découvrir les meilleurs alcools de la ville.",
+    "image": "https://cdn.prod.website-files.com/64cffe561f89322c529deabb/64f8f87c632168dd81a91a77_Original.jpg",
+    "alcohols": [
+      "Beer",
+      "Wine",
+      "Cocktails"
+    ],
+    "price": "$$",
+    "location": "Vinohrady",
+    "rating": 4.5,
+    "reviews": [],
+    "reviewCount": 3248
+  },
+  {
+    "id": "77",
+    "name": "Bar 77",
+    "description": "Le Bar 77 est un spot convivial à Prague 2 où tu peux découvrir les meilleurs alcools de la ville.",
+    "image": "https://www.meatspace.cz/site/assets/files/3607/crazy_daisy_bar_prague-meatspace-_dr.jpg",
+    "alcohols": [
+      "Liquors",
+      "Cocktails"
+    ],
+    "price": "$",
+    "location": "Prague 1",
+    "rating": 4.4,
+    "reviews": [],
+    "reviewCount": 6483
+  },
+  {
+    "id": "78",
+    "name": "Bar 78",
+    "description": "Le Bar 78 est un spot convivial à Prague 4 où tu peux découvrir les meilleurs alcools de la ville.",
+    "image": "https://www.pragueweekendstours.com/obj/files/6/sys_media_4262.jpg",
+    "alcohols": [
+      "Liquors",
+      "Cocktails",
+      "Wine"
+    ],
+    "price": "$$",
+    "location": "Letná",
+    "rating": 4.5,
+    "reviews": [],
+    "reviewCount": 1869
+  },
+  {
+    "id": "79",
+    "name": "Bar 79",
+    "description": "Le Bar 79 est un spot convivial à Karlín où tu peux découvrir les meilleurs alcools de la ville.",
+    "image": "https://cdn.prod.website-files.com/64cffe561f89322c529deabb/64f8f87c632168dd81a91a77_Original.jpg",
+    "alcohols": [
+      "Beer",
+      "Wine"
+    ],
+    "price": "$$",
+    "location": "Prague 2",
+    "rating": 4.8,
+    "reviews": [],
+    "reviewCount": 4445
+  },
+  {
+    "id": "80",
+    "name": "Bar 80",
+    "description": "Le Bar 80 est un spot convivial à Prague 5 où tu peux découvrir les meilleurs alcools de la ville.",
+    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/c4/3f/89/nightmare-horror-bar.jpg?w=500&h=500&s=1",
+    "alcohols": [
+      "Beer",
+      "Wine"
+    ],
+    "price": "$",
+    "location": "Prague 5",
+    "rating": 4.2,
+    "reviews": [],
+    "reviewCount": 4785
+  },
+  {
+    "id": "81",
+    "name": "Bar 81",
+    "description": "Le Bar 81 est un spot convivial à Prague 5 où tu peux découvrir les meilleurs alcools de la ville.",
+    "image": "https://images.squarespace-cdn.com/content/v1/608e530428da272d8862478a/1619947474672-8G9SZU1OGVZIG6D6QZI9/london-underground-bar-bg.jpg",
+    "alcohols": [
+      "Liquors",
+      "Cocktails",
+      "Wine"
+    ],
+    "price": "$$$",
+    "location": "Prague 4",
+    "rating": 4.6,
+    "reviews": [],
+    "reviewCount": 6220
+  },
+  {
+    "id": "82",
+    "name": "Bar 82",
+    "description": "Le Bar 82 est un spot convivial à Smíchov où tu peux découvrir les meilleurs alcools de la ville.",
+    "image": "https://images.squarespace-cdn.com/content/v1/608e530428da272d8862478a/1619947474672-8G9SZU1OGVZIG6D6QZI9/london-underground-bar-bg.jpg",
+    "alcohols": [
+      "Beer",
+      "Wine"
+    ],
+    "price": "$$$",
+    "location": "Prague 4",
+    "rating": 4.3,
+    "reviews": [],
+    "reviewCount": 6312
+  },
+  {
+    "id": "83",
+    "name": "Bar 83",
+    "description": "Le Bar 83 est un spot convivial à Prague 3 où tu peux découvrir les meilleurs alcools de la ville.",
+    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/c4/3f/89/nightmare-horror-bar.jpg?w=500&h=500&s=1",
+    "alcohols": [
+      "Beer",
+      "Liquors"
+    ],
+    "price": "$$",
+    "location": "Prague 5",
+    "rating": 4.5,
+    "reviews": [],
+    "reviewCount": 2492
+  },
+  {
+    "id": "84",
+    "name": "Bar 84",
+    "description": "Le Bar 84 est un spot convivial à Vinohrady où tu peux découvrir les meilleurs alcools de la ville.",
+    "image": "https://images.squarespace-cdn.com/content/v1/608e530428da272d8862478a/1619947474672-8G9SZU1OGVZIG6D6QZI9/london-underground-bar-bg.jpg",
+    "alcohols": [
+      "Cocktails",
+      "Liquors",
+      "Beer"
+    ],
+    "price": "$$$",
+    "location": "Prague 5",
+    "rating": 5,
+    "reviews": [],
+    "reviewCount": 1227
+  },
+  {
+    "id": "85",
+    "name": "Bar 85",
+    "description": "Le Bar 85 est un spot convivial à Prague 5 où tu peux découvrir les meilleurs alcools de la ville.",
+    "image": "https://cdn.prod.website-files.com/64cffe561f89322c529deabb/64f8f87c632168dd81a91a77_Original.jpg",
+    "alcohols": [
+      "Beer",
+      "Cocktails",
+      "Liquors"
+    ],
+    "price": "$$",
+    "location": "Prague 1",
+    "rating": 4.5,
+    "reviews": [],
+    "reviewCount": 6979
+  },
+  {
+    "id": "86",
+    "name": "Bar 86",
+    "description": "Le Bar 86 est un spot convivial à Vinohrady où tu peux découvrir les meilleurs alcools de la ville.",
+    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/5b/0c/f6/blue-light-bar.jpg?w=900&h=500&s=1",
+    "alcohols": [
+      "Liquors"
+    ],
+    "price": "$$",
+    "location": "Prague 4",
+    "rating": 4,
+    "reviews": [],
+    "reviewCount": 6053
+  },
+  {
+    "id": "87",
+    "name": "Bar 87",
+    "description": "Le Bar 87 est un spot convivial à Prague 4 où tu peux découvrir les meilleurs alcools de la ville.",
+    "image": "https://www.pragueweekendstours.com/obj/files/6/sys_media_4262.jpg",
+    "alcohols": [
+      "Cocktails",
+      "Wine"
+    ],
+    "price": "$$",
+    "location": "Prague 5",
+    "rating": 4.2,
+    "reviews": [],
+    "reviewCount": 7359
+  },
+  {
+    "id": "88",
+    "name": "Bar 88",
+    "description": "Le Bar 88 est un spot convivial à Letná où tu peux découvrir les meilleurs alcools de la ville.",
+    "image": "https://i.pinimg.com/736x/5d/96/ca/5d96ca4fd76a9e96e1273339ed062108.jpg",
+    "alcohols": [
+      "Cocktails",
+      "Beer",
+      "Wine"
+    ],
+    "price": "$$",
+    "location": "Prague 3",
+    "rating": 4.1,
+    "reviews": [],
+    "reviewCount": 6781
+  },
+  {
+    "id": "89",
+    "name": "Bar 89",
+    "description": "Le Bar 89 est un spot convivial à Žižkov où tu peux découvrir les meilleurs alcools de la ville.",
+    "image": "https://www.meatspace.cz/site/assets/files/3607/crazy_daisy_bar_prague-meatspace-_dr.jpg",
+    "alcohols": [
+      "Liquors",
+      "Wine",
+      "Beer"
+    ],
+    "price": "$$$",
+    "location": "Prague 4",
+    "rating": 4,
+    "reviews": [],
+    "reviewCount": 3945
+  },
+  {
+    "id": "90",
+    "name": "Bar 90",
+    "description": "Le Bar 90 est un spot convivial à Vinohrady où tu peux découvrir les meilleurs alcools de la ville.",
+    "image": "https://i.pinimg.com/736x/5d/96/ca/5d96ca4fd76a9e96e1273339ed062108.jpg",
+    "alcohols": [
+      "Liquors",
+      "Wine"
+    ],
+    "price": "$$$",
+    "location": "Prague 5",
+    "rating": 4.9,
+    "reviews": [],
+    "reviewCount": 8019
+  },
+  {
+    "id": "91",
+    "name": "Bar 91",
+    "description": "Le Bar 91 est un spot convivial à Letná où tu peux découvrir les meilleurs alcools de la ville.",
+    "image": "https://www.meatspace.cz/site/assets/files/3607/crazy_daisy_bar_prague-meatspace-_dr.jpg",
+    "alcohols": [
+      "Liquors",
+      "Wine"
+    ],
+    "price": "$",
+    "location": "Prague 5",
+    "rating": 4.6,
+    "reviews": [],
+    "reviewCount": 950
+  },
+  {
+    "id": "92",
+    "name": "Bar 92",
+    "description": "Le Bar 92 est un spot convivial à Prague 5 où tu peux découvrir les meilleurs alcools de la ville.",
+    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/5b/0c/f6/blue-light-bar.jpg?w=900&h=500&s=1",
+    "alcohols": [
+      "Beer",
+      "Wine",
+      "Cocktails"
+    ],
+    "price": "$$",
+    "location": "Prague 2",
+    "rating": 4.1,
+    "reviews": [],
+    "reviewCount": 4072
+  },
+  {
+    "id": "93",
+    "name": "Bar 93",
+    "description": "Le Bar 93 est un spot convivial à Prague 4 où tu peux découvrir les meilleurs alcools de la ville.",
+    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/5b/0c/f6/blue-light-bar.jpg?w=900&h=500&s=1",
+    "alcohols": [
+      "Liquors"
+    ],
+    "price": "$$$",
+    "location": "Karlín",
+    "rating": 4.4,
+    "reviews": [],
+    "reviewCount": 1514
+  },
+  {
+    "id": "94",
+    "name": "Bar 94",
+    "description": "Le Bar 94 est un spot convivial à Prague 5 où tu peux découvrir les meilleurs alcools de la ville.",
+    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/5b/0c/f6/blue-light-bar.jpg?w=900&h=500&s=1",
+    "alcohols": [
+      "Liquors",
+      "Wine"
+    ],
+    "price": "$$$",
+    "location": "Žižkov",
+    "rating": 4.8,
+    "reviews": [],
+    "reviewCount": 7470
+  },
+  {
+    "id": "95",
+    "name": "Bar 95",
+    "description": "Le Bar 95 est un spot convivial à Karlín où tu peux découvrir les meilleurs alcools de la ville.",
+    "image": "https://images.svoboda-williams.com/frontend/99554657/800x533-z/le-valmont-prague-s-best-bars.jpg",
+    "alcohols": [
+      "Beer",
+      "Wine",
+      "Cocktails"
+    ],
+    "price": "$$",
+    "location": "Letná",
+    "rating": 4.5,
+    "reviews": [],
+    "reviewCount": 892
+  },
+  {
+    "id": "96",
+    "name": "Bar 96",
+    "description": "Le Bar 96 est un spot convivial à Letná où tu peux découvrir les meilleurs alcools de la ville.",
+    "image": "https://www.meatspace.cz/site/assets/files/3607/crazy_daisy_bar_prague-meatspace-_dr.jpg",
+    "alcohols": [
+      "Beer",
+      "Wine"
+    ],
+    "price": "$",
+    "location": "Prague 1",
+    "rating": 4.9,
+    "reviews": [],
+    "reviewCount": 1260
+  },
+  {
+    "id": "97",
+    "name": "Bar 97",
+    "description": "Le Bar 97 est un spot convivial à Prague 2 où tu peux découvrir les meilleurs alcools de la ville.",
+    "image": "https://i.pinimg.com/736x/5d/96/ca/5d96ca4fd76a9e96e1273339ed062108.jpg",
+    "alcohols": [
+      "Liquors",
+      "Beer",
+      "Wine"
+    ],
+    "price": "$$",
+    "location": "Žižkov",
+    "rating": 4.9,
+    "reviews": [],
+    "reviewCount": 6094
+  },
+  {
+    "id": "98",
+    "name": "Bar 98",
+    "description": "Le Bar 98 est un spot convivial à Prague 1 où tu peux découvrir les meilleurs alcools de la ville.",
+    "image": "https://cdn.prod.website-files.com/64cffe561f89322c529deabb/64f8f87c632168dd81a91a77_Original.jpg",
+    "alcohols": [
+      "Wine"
+    ],
+    "price": "$$$",
+    "location": "Smíchov",
+    "rating": 5,
+    "reviews": [],
+    "reviewCount": 6396
+  },
+  {
+    "id": "99",
+    "name": "Bar 99",
+    "description": "Le Bar 99 est un spot convivial à Letná où tu peux découvrir les meilleurs alcools de la ville.",
+    "image": "https://www.meatspace.cz/site/assets/files/3607/crazy_daisy_bar_prague-meatspace-_dr.jpg",
+    "alcohols": [
+      "Cocktails",
+      "Liquors"
+    ],
+    "price": "$$$",
+    "location": "Letná",
+    "rating": 4.4,
+    "reviews": [],
+    "reviewCount": 2600
+  },
+  {
+    "id": "100",
+    "name": "Bar 100",
+    "description": "Le Bar 100 est un spot convivial à Karlín où tu peux découvrir les meilleurs alcools de la ville.",
+    "image": "https://images.squarespace-cdn.com/content/v1/608e530428da272d8862478a/1619947474672-8G9SZU1OGVZIG6D6QZI9/london-underground-bar-bg.jpg",
+    "alcohols": [
+      "Cocktails"
+    ],
+    "price": "$$$",
+    "location": "Prague 5",
+    "rating": 4.9,
+    "reviews": [],
+    "reviewCount": 1126
+  }
+]

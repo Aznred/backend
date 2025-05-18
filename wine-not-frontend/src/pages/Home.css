@@ -1,0 +1,312 @@
+body {
+    background: #fafafa;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.home {
+    width: 100vw;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background: #fff;
+    padding: 18px 42px 12px 28px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+.logo {
+    font-size: 1.7rem;
+    font-weight: bold;
+    letter-spacing: -1px;
+    color: #222;
+    margin-right: 32px;
+}
+
+.nav-btn, .signup-btn {
+    background: #fff;
+    border: 1.5px solid #222;
+    border-radius: 21px;
+    padding: 7px 23px;
+    font-size: 1.05rem;
+    color: #222;
+    font-weight: 500;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: background .18s, color .18s, border .18s;
+}
+.signup-btn {
+    background: #222;
+    color: #fff;
+}
+.nav-btn:hover, .signup-btn:hover {
+    background: #eee;
+    color: #111;
+}
+
+/* Filtres */
+.filters {
+    display: flex;
+    align-items: center;
+    background: #fff;
+    border-radius: 18px;
+    box-shadow: 0 2px 14px #0001;
+    padding: 16px 28px;
+    gap: 14px;
+    margin: 30px auto 30px auto;
+    width: fit-content;
+    min-width: 80vw;
+    box-sizing: border-box;
+    overflow-x: auto;
+}
+
+.filter-btn {
+    background: #f1f1f1;
+    border: none;
+    border-radius: 22px;
+    padding: 9px 22px;
+    font-size: 1rem;
+    color: #111;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background .22s, color .18s, font-weight .18s;
+    margin-right: 4px;
+    outline: none;
+}
+.filter-btn.active, .filter-btn:hover {
+    background: #222;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Bannière promos UberEats-like */
+.banner-cards {
+    display: flex;
+    gap: 24px;
+    margin: 24px auto 32px auto;
+    width: fit-content;
+    min-width: 82vw;
+    box-sizing: border-box;
+    padding: 0 16px;
+    justify-content: flex-start;
+}
+
+.banner-card {
+    flex: 1 1 0;
+    border-radius: 20px;
+    padding: 28px 20px 24px 20px;
+    font-size: 1.09rem;
+    font-weight: 500;
+    box-shadow: 0 2px 16px #0001;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #111;
+    min-width: 260px;
+    max-width: 380px;
+    border: none;
+}
+.banner-card.yellow { background: #fff7d6; opacity: 0.98; }
+.banner-card.pink   { background: #ffe5ea; opacity: 0.98; }
+.banner-card.blue   { background: #e2f1ff; opacity: 0.98; }
+
+.banner-card strong {
+    font-weight: bold;
+    color: #111;
+    font-size: 1.13rem;
+}
+
+.banner-btn {
+    background: #111;
+    color: #fff;
+    border: none;
+    border-radius: 12px;
+    padding: 8px 24px;
+    margin-top: 16px;
+    cursor: pointer;
+    font-size: 1.01rem;
+    transition: background .22s;
+    font-weight: 500;
+}
+.banner-btn:hover {
+    background: #333;
+}
+
+/* Section */
+.section {
+    margin: 24px auto 28px auto;
+    width: 90vw;
+    max-width: 1700px;
+    box-sizing: border-box;
+}
+.section-title {
+    font-size: 1.35rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+    margin-left: 7px;
+    color: #222;
+    letter-spacing: -.5px;
+}
+
+/* Grille UberEats-like */
+.cards-list-giant {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 27px 21px;
+    padding-bottom: 45px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* Card */
+.bar-card {
+    background: #fff;
+    border-radius: 21px;
+    box-shadow: 0 2px 14px #0002;
+    width: 100%;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    transition: box-shadow .22s, border 0.18s;
+    border: 2.5px solid transparent;
+    color: #111;
+}
+
+.bar-card:hover {
+    box-shadow: 0 4px 32px #0003;
+    border: 2.5px solid #2222;
+}
+
+.bar-img {
+    width: 100%;
+    height: 135px;
+    object-fit: cover;
+    background: #eaeaea;
+}
+
+.bar-card-body {
+    padding: 15px 15px 13px 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    flex: 1;
+}
+
+.bar-name {
+    font-weight: 700;
+    font-size: 1.14rem;
+    color: #222;
+}
+
+.bar-info {
+    font-size: 1.01rem;
+    color: #222;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.bar-card-body span {
+    display: inline-block;
+    background: #f1f1f1;
+    color: #333;
+    padding: 2px 10px;
+    border-radius: 14px;
+    font-size: 0.91rem;
+    margin-right: 4px;
+    margin-bottom: 2px;
+    font-weight: 500;
+}
+
+.bar-btn {
+    margin-top: 11px;
+    background: #111;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 8px 19px;
+    font-size: 1.03rem;
+    cursor: pointer;
+    transition: background .18s;
+    align-self: flex-start;
+    font-weight: 500;
+    box-shadow: 0 2px 10px #0001;
+}
+.bar-btn:hover {
+    background: #222;
+}
+
+/* Responsive */
+@media (max-width: 1150px) {
+    .cards-list-giant, .banner-cards, .section, .filters {
+        min-width: 98vw;
+        width: 98vw;
+        max-width: 100vw;
+        padding-left: 4px;
+        padding-right: 4px;
+    }
+    .filters {
+        padding: 11px 4px;
+    }
+}
+@media (max-width: 700px) {
+    .banner-cards, .section, .filters {
+        min-width: 100vw;
+        width: 100vw;
+        max-width: 100vw;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .cards-list-giant {
+        grid-template-columns: 1fr;
+    }
+    .navbar {
+        padding: 13px 10px 7px 6px;
+    }
+}
+.fav-uber-card:hover {
+    box-shadow: 0 8px 22px 0 #0002;
+    transform: translateY(-2px) scale(1.01);
+}
+@media (max-width: 700px) {
+    .fav-uber-card {
+        width: 98vw !important;
+        min-width: unset;
+        max-width: 100vw;
+        border-radius: 13px;
+    }
+}
+.header-search {
+    margin-left: 24px;
+    background: #f7f7f7;
+    border: 1.5px solid #eee;
+    border-radius: 16px;
+    font-size: 16px;
+    padding: 7px 17px;
+    width: 260px;
+    max-width: 380px;
+    outline: none;
+    transition: box-shadow 0.18s, border-color 0.16s;
+    box-shadow: 0 2px 8px 0 #0001;
+    color: #222;
+}
+.header-search:focus {
+    border-color: #ccc;
+    box-shadow: 0 4px 18px 0 #ddd3;
+    background: #fff;
+}
+@media (max-width: 900px) {
+    .header-search {
+        width: 120px;
+        max-width: 140px;
+        font-size: 14px;
+        padding: 6px 10px;
+    }
+}

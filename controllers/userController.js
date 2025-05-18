@@ -1,47 +1,93 @@
-const User = require("../models/user.js");
+const fs = require("fs");
+const path = require("path");
+const bcrypt = require("bcryptjs");
+const { OAuth2Client } = require("google-auth-library");
 
-exports.createUser = async (req, res) => {
+const usersPath = path.join(__dirname, "../users.json");
+const CLIENT_ID = "341114379232-2lbs9hdca4onrhdtp4t4fmgt36aq69ji.apps.googleusercontent.com"; // ← à remplacer !
+const client = new OAuth2Client(CLIENT_ID);
+
+function readUsers() {
+    return new Promise((resolve, reject) => {
+        fs.readFile(usersPath, "utf8", (err, data) => {
+            if (err) return reject(err);
+            resolve(JSON.parse(data));
+        });
+    });
+}
+function writeUsers(users) {
+    return new Promise((resolve, reject) => {
+        fs.writeFile(usersPath, JSON.stringify(users, null, 2), "utf8", (err) => {
+            if (err) return reject(err);
+            resolve();
+        });
+    });
+}
+
+// --------------------- SIGNUP ---------------------
+exports.signup = async (req, res) => {
+    const { username, password } = req.body;
+    if (!username || !password)
+        return res.status(400).json({ error: "Missing username or password" });
     try {
-        const user = await User.create(req.body);
-        res.status(201).json(user);
+        const users = await readUsers();
+        if (users.find(u => u.username === username))
+            return res.status(400).json({ error: "Username already exists" });
+
+        const hash = await bcrypt.hash(password, 10);
+        users.push({ username, password: hash, google: false });
+        await writeUsers(users);
+
+        // Token bidon pour la démo
+        res.json({ username, token: "fake-token-" + Date.now() });
     } catch (err) {
-        res.status(400).json({ error: err.message });
+        res.status(500).json({ error: "Signup failed" });
     }
 };
 
-exports.getUser = async (req, res) => {
+// --------------------- LOGIN ---------------------
+exports.login = async (req, res) => {
+    const { username, password } = req.body;
     try {
-        const user = await User.findById(req.params.id);
-        if (!user) return res.status(404).json({ error: "User not found" });
-        res.json(user);
+        const users = await readUsers();
+        const user = users.find(u => u.username === username);
+        if (!user) return res.status(400).json({ error: "User not found" });
+
+        if (user.google) {
+            return res.status(400).json({ error: "Utilisateur enregistré avec Google. Veuillez utiliser Google." });
+        }
+        const isValid = await bcrypt.compare(password, user.password);
+        if (!isValid) return res.status(400).json({ error: "Wrong password" });
+
+        res.json({ username, token: "fake-token-" + Date.now() });
     } catch (err) {
-        res.status(400).json({ error: err.message });
+        res.status(500).json({ error: "Login failed" });
     }
 };
 
-exports.listUsers = async (req, res) => {
-    try {
-        const users = await User.find();
-        res.json(users);
-    } catch (err) {
-        res.status(400).json({ error: err.message });
-    }
-};
+// --------------------- GOOGLE LOGIN ---------------------
+exports.googleLogin = async (req, res) => {
+    const { credential } = req.body;
+    if (!credential) return res.status(400).json({ error: "Missing credential" });
 
-exports.updateUser = async (req, res) => {
     try {
-        const updated = await User.findByIdAndUpdate(req.params.id, req.body, { new: true });
-        res.json(updated);
-    } catch (err) {
-        res.status(400).json({ error: err.message });
-    }
-};
+        const ticket = await client.verifyIdToken({
+            idToken: credential,
+            audience: CLIENT_ID,
+        });
+        const payload = ticket.getPayload();
+        const email = payload.email;
+        const name = payload.name || email.split("@")[0];
 
-exports.deleteUser = async (req, res) => {
-    try {
-        await User.findByIdAndDelete(req.params.id);
-        res.status(204).send();
+        let users = await readUsers();
+        let user = users.find(u => u.username === email);
+        if (!user) {
+            user = { username: email, password: null, google: true };
+            users.push(user);
+            await writeUsers(users);
+        }
+        res.json({ username: email, token: "google-token-" + Date.now() });
     } catch (err) {
-        res.status(400).json({ error: err.message });
+        res.status(401).json({ error: "Google token invalid" });
     }
 };

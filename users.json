@@ -1,0 +1,24 @@
+[
+  {
+    "username": "Colin",
+    "password": "$2b$10$.jTyz8GpG3gv69.XILufw.piyNsKnKlICCV.re1ZywZTquTCnlxwS"
+  },
+  {
+    "username": "test",
+    "password": "$2b$10$Gj9JMIp3OxHeckMBFQQ8vO3bbopnU0KJp5i27JqZ656qQJVmd2AVS"
+  },
+  {
+    "username": "Mama",
+    "password": "$2b$10$CPql8AZOJfjwXRmmuF6Kb.EQjChgGP1hgnRnfP26e3VgwcCDIZyNe"
+  },
+  {
+    "username": "colingomez26@gmail.com",
+    "password": null,
+    "google": true
+  },
+  {
+    "username": "Adri",
+    "password": "$2b$10$Ju00DcDC4yyIqD3.kSY8Quy.rZHWlAgxyI/FRv.bY6PFDcqJ8AfFa",
+    "google": false
+  }
+]

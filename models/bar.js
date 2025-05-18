@@ -1,8 +1,13 @@
-const mongoose = require("mongoose");
+const mongoose = require('mongoose');
+
 const barSchema = new mongoose.Schema({
     name: { type: String, required: true },
-    location: { type: String },
-    rating: { type: Number, default: 0 },
-    isFavorite: { type: Boolean, default: false }
+    description: String,
+    image: String,
+    tags: [String],
+    location: String,
+    rating: { type: Number, default: 4.5 },
+    reviews: [{ type: mongoose.Schema.Types.ObjectId, ref: "Review" }]
 });
-module.exports = mongoose.model("Bar", barSchema);
+
+module.exports = mongoose.model('Bar', barSchema);
